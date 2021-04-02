@@ -1,0 +1,12 @@
+classdef subs < handle
+    properties (SetAccess = private)
+        data % stores si
+        
+    end
+    
+    methods 
+        
+    end
+    
+    
+end
