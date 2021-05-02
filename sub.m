@@ -31,6 +31,7 @@ classdef sub < handle
         function self = sub(sub_num,sub_time_stamp,sub_txt) 
             if nargin == 0 % create an empty obj
                 %self = sub(0,[0,0],'');
+                
                 sub_num = 0;
                 sub_time_stamp = [0,0];
                 sub_txt = '';
